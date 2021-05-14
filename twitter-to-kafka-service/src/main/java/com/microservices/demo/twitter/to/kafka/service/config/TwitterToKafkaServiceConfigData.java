@@ -11,4 +11,5 @@ import java.util.List;
 @Data
 public class TwitterToKafkaServiceConfigData {
     private List<String> twitterKeywords;
+    private String welcomeMessage;
 }
