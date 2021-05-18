@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://media/harishk/1/Learnings/spring/microservices-demo/config-server-repository
+          clone-on-start: true
+    fail-fast: true
